@@ -1,0 +1,20 @@
+/* style.css */
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f4a261;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    border: 1px solid #333;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: square;
+}

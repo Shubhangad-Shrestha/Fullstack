@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+	<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 15px;
+    }
+</style>
+
+</head>
+<body>
+    <header>
+        <h1>Delicious Recipes</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <article>
+            <section>
+                <h2>Spaghetti Bolognese</h2>
+                <ul>
+                    <li>Spaghetti</li>
+                    <li>Tomato Sauce</li>
+                    <li>Ground Beef</li>
+                </ul>
+            </section>
+        </article>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 My Recipe Site</p>
+    </footer>
+</body>
+<h1 style="color: darkred; text-align:center;">Delicious Recipes</h1>
+
+</html>
