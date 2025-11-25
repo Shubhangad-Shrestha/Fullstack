@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="hero">
+        <video autoplay loop muted id="video-background">
+            <source src="https://www.pexels.com/download/video/854889/" type="video/mp4">
+        </video>
+
+        <nav class="navbar">
+            <span class="logo">My Portfolio</span>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" aria-expanded="false" id="menu-button">☰</button>
+        </nav>
+
+        <div class="hero-content">
+            <h1>Suv</h1>
+            <p>Frontend Developer • UI / UX Enjoyer</p>
+        </div>
+    </header>
+
+    <main>
+        <!-- ABOUT -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Suv</p>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div id="projects-grid">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>Suv is cool</p>
+                    <a href="#">View</a>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2</h3>
+                    <p>Suv is cooler</p>
+                    <a href="#">View</a>
+                </div>
+                <div class="project-card">
+                    <h3>Project 3</h3>
+                    <p>Suv is coolest</p>
+                    <a href="#">View</a>
+                </div>
+                <div class="project-card">
+                    <h3>Project 4</h3>
+                    <p>Suv is coolesttt</p>
+                    <a href="#">View</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label>Name:</label>
+                <input type="text" id="name" required>
+                <label>Email:</label>
+                <input type="email" id="email" required>
+                <label>Message:</label>
+                <textarea id="message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="form-message"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Suv. All rights reserved.</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
